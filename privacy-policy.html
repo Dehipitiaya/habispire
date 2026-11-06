@@ -62,6 +62,7 @@
 
 <h2>5. Purchases (Premium)</h2>
 <p>Some features require Habispire Premium, bought as a subscription or a one-time purchase through Google Play. Payment is handled entirely by Google Play; we never see or store your card or payment details. The App asks Google Play whether your account has an active purchase so it can unlock Premium, and stores that status on your phone. Google's own privacy policy applies to purchases.</p>
+<p><strong>Confirming purchases and fixing payment problems.</strong> To make sure a purchase is genuine, and so we can help if a payment fails, the App sends the purchase's token to our server, which asks Google Play about it. We keep a scrambled (hashed) copy of the token, which product it is, its state (for example active, in a grace period, on hold or pending) and Google's order number. We do not receive your name, email address or payment details. The order number lets us look up that order in Google Play, where Google shows us what it chooses to share with developers about the buyer, and lets us help you fix a payment problem; Google also emails you about failed payments. We use this only to confirm Premium, prevent fraud and handle payment problems, and keep it while the purchase is active and for up to 24 months afterwards. If there is a payment problem, we may attach a short message to that purchase, which the App then shows you (we do not need your email address for this).</p>
 
 <h2>6. What we do not do</h2>
 <ul>
@@ -75,7 +76,7 @@
 <table>
   <tr><th>Service</th><th>What for</th><th>What it receives</th></tr>
   <tr><td>Google (Sign-In, Drive, Play Billing, Android Backup)</td><td>Optional sign-in, optional backup, purchases, phone backup</td><td>Only what you choose to use; governed by Google's privacy policy</td></tr>
-  <tr><td>Vercel Inc. and Neon, Inc. (our server and database)</td><td>Receiving and storing the anonymous report</td><td>The anonymous report described in section 4</td></tr>
+  <tr><td>Vercel Inc. and Neon, Inc. (our server and database)</td><td>Receiving and storing the anonymous report, and confirming purchases</td><td>The anonymous report described in section 4, and the purchase details described in section 5</td></tr>
 </table>
 <p>These providers may process data in countries other than yours, including the United States. Where required, we rely on appropriate safeguards such as standard contractual clauses.</p>
 
