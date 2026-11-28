@@ -20,7 +20,7 @@
       <nav aria-label="Main navigation">
         <a href="#features">Features</a>
         <a href="#privacy">Privacy</a>
-        <a href="#support" class="nav-support">Support</a>
+        <a href="support.html" class="nav-support">Support</a>
       </nav>
     </div>
   </header>
@@ -30,11 +30,11 @@
       <div class="wrap hero-layout">
         <div class="hero-copy">
           <p class="label">Habit tracker for Android</p>
-          <h1 id="hero-title">Build better habits.<br><span>See your progress.</span></h1>
-          <p class="hero-description">Plan routines, check in, and see how they’re going. Habispire gives you reminders, timers, and home-screen widgets to keep your habits in view.</p>
+          <h1 id="hero-title">Build better habits.<br><span>Build a better life.</span></h1>
+          <p class="hero-description">Motivation comes and goes. Habits keep you moving. Plan routines, check in, and see your progress with Habispire.</p>
           <div class="actions">
             <a class="button primary" href="#features">Explore features</a>
-            <a class="button secondary" href="#support">Contact support</a>
+            <a class="button secondary" href="support.html">Contact support</a>
           </div>
           <ul class="quick-facts" aria-label="Habispire at a glance">
             <li>Ad-free</li>
@@ -42,18 +42,17 @@
             <li>Optional Google Drive backup</li>
           </ul>
         </div>
-        <figure class="hero-art">
-          <img src="assets/widget-showcase.png" alt="Examples of Habispire’s Premium home-screen widgets, including a timer, streak tracker, and progress charts." width="1200" height="1040" fetchpriority="high">
-          <figcaption>Habispire Premium widgets</figcaption>
-        </figure>
+        <div class="hero-art" aria-hidden="true">
+          <img src="assets/habit-path.svg" alt="" width="620" height="468" fetchpriority="high">
+        </div>
       </div>
     </section>
 
     <section id="features" class="section feature-section" aria-labelledby="features-title">
       <div class="wrap">
         <header class="section-heading">
-          <h2 id="features-title">Tools for your daily routine</h2>
-          <p>Choose a way to track each habit and review how it’s going over time.</p>
+          <h2 id="features-title">Simple to start. Room to grow.</h2>
+          <p>Build routines around how you already spend your day.</p>
         </header>
         <div class="feature-grid">
           <article class="feature">
@@ -68,9 +67,19 @@
           </article>
           <article class="feature">
             <span class="feature-mark mark-progress" aria-hidden="true">▥</span>
-            <h3>Review your progress</h3>
-            <p>See streaks, completion rates, and progress charts. Premium adds home-screen widgets for habits, timers, and daily goals.</p>
+            <h3>Keep your habits in sight</h3>
+            <p>Premium widgets keep habits and timers on your home screen, so your next check-in is easy to find.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section progress-section" aria-labelledby="progress-title">
+      <div class="wrap progress-layout">
+        <img src="assets/progress-pattern.svg" alt="" width="470" height="272" loading="lazy">
+        <div>
+          <h2 id="progress-title">See the patterns in your progress</h2>
+          <p>Streaks, completion rates, and charts show where a routine is taking hold and where it could use a change.</p>
         </div>
       </div>
     </section>
@@ -79,7 +88,7 @@
       <div class="wrap privacy-panel">
         <div>
           <h2 id="privacy-title">Your habits stay on your phone</h2>
-          <p>Habispire stores your habit names and notes on your device. You can choose to back them up to your own Google Drive.</p>
+          <p>Your habit names and notes stay on your device, with optional backup to your own Google Drive. We will never sell your data.</p>
           <a class="button outline" href="privacy-policy.html">Read the Privacy Policy</a>
         </div>
         <dl class="privacy-details">
@@ -89,40 +98,15 @@
           </div>
           <div>
             <dt>Premium billing</dt>
-            <dd>Google Play handles payments and subscription management.</dd>
+            <dd>You can see each Premium plan’s price before you buy. Google Play handles payments and subscription management.</dd>
           </div>
         </dl>
       </div>
     </section>
 
-    <section id="support" class="section support-section" aria-labelledby="support-title">
-      <div class="wrap support-layout">
-        <div>
-          <h2 id="support-title">Habispire support</h2>
-          <p>Need help with reminders, backups, widgets, or a purchase? Email the developer. Include your app version, Android version, and what happened.</p>
-          <a class="button support-button" href="mailto:habispire.support@gmail.com?subject=Habispire%20support">Email support</a>
-          <p class="contact-address">habispire.support@gmail.com</p>
-        </div>
-        <div class="support-questions">
-          <h3>Common questions</h3>
-          <details>
-            <summary>How do I restore Premium?</summary>
-            <p>Sign in with the same Google account and choose <strong>Restore purchases</strong> in the app.</p>
-          </details>
-          <details>
-            <summary>How do I cancel a subscription?</summary>
-            <p>Open Google Play and go to <strong>Payments &amp; subscriptions › Subscriptions</strong>. Select Habispire to manage or cancel your plan.</p>
-          </details>
-          <details>
-            <summary>How do I turn off usage reports?</summary>
-            <p>Open <strong>Settings › Privacy &amp; data</strong> in Habispire and switch off <strong>Share anonymous usage data</strong>.</p>
-          </details>
-        </div>
-      </div>
-    </section>
   </main>
 
-  <footer class="site-footer">
+  <footer id="support" class="site-footer">
     <div class="wrap footer-layout">
       <div>
         <a class="brand" href="./" aria-label="Habispire home">
@@ -134,7 +118,7 @@
       <nav aria-label="Footer navigation">
         <a href="privacy-policy.html">Privacy Policy</a>
         <a href="terms-of-use.html">Terms of Use</a>
-        <a href="#support">Support</a>
+        <a href="support.html">Support</a>
       </nav>
     </div>
   </footer>
