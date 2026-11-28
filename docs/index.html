@@ -1,21 +1,142 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Habispire</title>
-<style>
-  body { max-width: 560px; margin: 0 auto; padding: 48px 16px; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #14201a; background: #fff; }
-  a { color: #2440cf; }
-  @media (prefers-color-scheme: dark) { body { background: #0a0c10; color: #eef2ef; } a { color: #a3e635; } }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Habispire is an Android habit tracker for routines, reminders, timers and progress. Find support and learn how your data is handled.">
+  <meta name="theme-color" content="#091427">
+  <title>Habispire · Habit tracker for Android</title>
+  <link rel="icon" href="assets/habispire-icon.webp" type="image/webp">
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
-<h1>Habispire</h1>
-<p>A habit tracker for Android.</p>
-<ul>
-  <li><a href="privacy-policy.html">Privacy Policy</a></li>
-  <li><a href="terms-of-use.html">Terms of Use</a></li>
-</ul>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap topbar">
+      <a class="brand" href="./" aria-label="Habispire home">
+        <img src="assets/habispire-icon.webp" width="40" height="40" alt="">
+        <span>Habispire</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#support" class="nav-support">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-layout">
+        <div class="hero-copy">
+          <p class="label">Habit tracker for Android</p>
+          <h1 id="hero-title">Build better habits.<br><span>See your progress.</span></h1>
+          <p class="hero-description">Plan routines, check in, and see how they’re going. Habispire gives you reminders, timers, and home-screen widgets to keep your habits in view.</p>
+          <div class="actions">
+            <a class="button primary" href="#features">Explore features</a>
+            <a class="button secondary" href="#support">Contact support</a>
+          </div>
+          <ul class="quick-facts" aria-label="Habispire at a glance">
+            <li>Ad-free</li>
+            <li>Habits stored on your phone</li>
+            <li>Optional Google Drive backup</li>
+          </ul>
+        </div>
+        <figure class="hero-art">
+          <img src="assets/widget-showcase.png" alt="Examples of Habispire’s Premium home-screen widgets, including a timer, streak tracker, and progress charts." width="1200" height="1040" fetchpriority="high">
+          <figcaption>Habispire Premium widgets</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="features" class="section feature-section" aria-labelledby="features-title">
+      <div class="wrap">
+        <header class="section-heading">
+          <h2 id="features-title">Tools for your daily routine</h2>
+          <p>Choose a way to track each habit and review how it’s going over time.</p>
+        </header>
+        <div class="feature-grid">
+          <article class="feature">
+            <span class="feature-mark mark-check" aria-hidden="true">✓</span>
+            <h3>Track different kinds of habits</h3>
+            <p>Check something off, count repetitions, track time, or work on quitting a habit. Set daily, weekly, or monthly schedules.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-mark mark-time" aria-hidden="true">◷</span>
+            <h3>Set reminders and timers</h3>
+            <p>Choose when Habispire reminds you and use countdown or interval timers for timed habits.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-mark mark-progress" aria-hidden="true">▥</span>
+            <h3>Review your progress</h3>
+            <p>See streaks, completion rates, and progress charts. Premium adds home-screen widgets for habits, timers, and daily goals.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-section" aria-labelledby="privacy-title">
+      <div class="wrap privacy-panel">
+        <div>
+          <h2 id="privacy-title">Your habits stay on your phone</h2>
+          <p>Habispire stores your habit names and notes on your device. You can choose to back them up to your own Google Drive.</p>
+          <a class="button outline" href="privacy-policy.html">Read the Privacy Policy</a>
+        </div>
+        <dl class="privacy-details">
+          <div>
+            <dt>Usage reporting</dt>
+            <dd>You can switch off usage reports in Settings › Privacy &amp; data.</dd>
+          </div>
+          <div>
+            <dt>Premium billing</dt>
+            <dd>Google Play handles payments and subscription management.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="support" class="section support-section" aria-labelledby="support-title">
+      <div class="wrap support-layout">
+        <div>
+          <h2 id="support-title">Habispire support</h2>
+          <p>Need help with reminders, backups, widgets, or a purchase? Email the developer. Include your app version, Android version, and what happened.</p>
+          <a class="button support-button" href="mailto:habispire.support@gmail.com?subject=Habispire%20support">Email support</a>
+          <p class="contact-address">habispire.support@gmail.com</p>
+        </div>
+        <div class="support-questions">
+          <h3>Common questions</h3>
+          <details>
+            <summary>How do I restore Premium?</summary>
+            <p>Sign in with the same Google account and choose <strong>Restore purchases</strong> in the app.</p>
+          </details>
+          <details>
+            <summary>How do I cancel a subscription?</summary>
+            <p>Open Google Play and go to <strong>Payments &amp; subscriptions › Subscriptions</strong>. Select Habispire to manage or cancel your plan.</p>
+          </details>
+          <details>
+            <summary>How do I turn off usage reports?</summary>
+            <p>Open <strong>Settings › Privacy &amp; data</strong> in Habispire and switch off <strong>Share anonymous usage data</strong>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-layout">
+      <div>
+        <a class="brand" href="./" aria-label="Habispire home">
+          <img src="assets/habispire-icon.webp" width="32" height="32" alt="">
+          <span>Habispire</span>
+        </a>
+        <p>Developed by Anuththara Dehipitiya</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+        <a href="#support">Support</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
